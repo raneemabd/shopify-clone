@@ -293,10 +293,11 @@
         <swiper-slide
           ><img
             src="../../crop-crypton.png" /></swiper-slide
-        ><swiper-slide
+        >
+        <!-- <swiper-slide
           ><img
             src="../../crop portfolio.png" /></swiper-slide
-        ><swiper-slide><img src="../../SEO.jpg" /></swiper-slide
+        ><swiper-slide><img src="../../SEO.jpg" /></swiper-slide -->
         ><swiper-slide><img src="../../cv.png" /></swiper-slide
         ><swiper-slide
           ><img src="../../flex-box.png" style="height: 100%" /></swiper-slide
