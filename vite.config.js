@@ -9,6 +9,7 @@ import { fileURLToPath, URL } from 'node:url'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base:'/shopify-clone/',
   plugins: [
     vue({
       template: { transformAssetUrls }
