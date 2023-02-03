@@ -33,7 +33,7 @@
           <v-list-item-title class="text-primary">Add User</v-list-item-title>
         </v-list-item>
         <v-btn variant="flat" color="primary" to="/dashboard"> Back to dash </v-btn>
-        <v-btn variant="flat" color="primary" to="/dashcharts">  dash </v-btn>
+      
       </v-list>
     </v-navigation-drawer>
   </template>
