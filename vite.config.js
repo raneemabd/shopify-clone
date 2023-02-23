@@ -10,6 +10,7 @@ import { fileURLToPath, URL } from 'node:url'
 // https://vitejs.dev/config/
 export default defineConfig({
   // base:'/shopify-clone/',
+  base: process.env.NODE_ENV === "production" ? "/shopify-clone/" : "/",
   plugins: [
     vue({
       template: { transformAssetUrls }
