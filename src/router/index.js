@@ -225,8 +225,7 @@ const routes = [
 
 ];
 const router = createRouter({
-  history: createWebHistory(process.env.BASE_URL),
-  routes,
+  history:createWebHistory(process.env.NODE_ENV === "production" ? "/shopify-clone/" : "/"),
 })
 
 router.beforeEach(function(to, from, next){
